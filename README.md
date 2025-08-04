@@ -1,6 +1,6 @@
-# Attendify: A Smart Attendance Tracker & Predictor
+# Attxenz: A Smart Attendance Tracker & Predictor
 
-Attendify is a modern, user-friendly web application designed to help students, particularly in India, effortlessly track, manage, and predict their class attendance. Gone are the days of manual calculations and uncertainty. With Attendify, you can easily stay on top of your attendance requirements and make informed decisions about skipping classes.
+Attxenz is a modern, user-friendly web application designed to help students, particularly in India, effortlessly track, manage, and predict their class attendance. Gone are the days of manual calculations and uncertainty. With Attxenz, you can easily stay on top of your attendance requirements and make informed decisions about your schedule.
 
 The application is built with a clean, responsive interface featuring both light and dark modes, and securely stores all your data online using Google's Firebase, accessible via a simple Google login.
 
@@ -8,14 +8,15 @@ The application is built with a clean, responsive interface featuring both light
 ## ✨ Core Features
 
 * **Simplified Attendance Tracking:** No need to mark every single class. Simply provide the total number of classes conducted and attended so far, and the app handles all calculations.
-* **Predictive Analysis:** The app's key feature allows you to see how your overall attendance percentage will be affected if you decide to miss classes in the future. This helps you make informed decisions to stay above your institution's minimum attendance requirements.
-* **Intelligent Holiday Calendar:** The app is designed with the Indian academic calendar in mind. It automatically considers the following as holidays:
-    * All Sundays
-    * The 2nd and 4th Saturday of every month
+* **Advanced Predictive Analysis:** The app's key feature is a powerful calculator that lets you see how your attendance will be affected by future absences. You can select any future date and enter the number of *whole days* or *individual classes* you plan to skip to get a precise, real-time prediction.
+* **Intelligent & Flexible Holiday Calendar:** The app is designed for the Indian academic calendar. It automatically considers the following as holidays:
+    * All Sundays.
     * A built-in list of major Indian public holidays (e.g., Republic Day, Diwali, Independence Day).
-    * The ability to add your own custom holidays (e.g., for college festivals or specific events).
-* **Secure Cloud Storage:** All your data, from your timetable to your attendance record, is securely saved to your personal account using Firebase Firestore. Log in from any device and your data is always there.
-* **Easy Timetable Management:** You can add your class schedule manually or upload a simple JSON file to populate it instantly.
+    * **Customizable Saturdays:** You can select which Saturdays of the month (1st, 2nd, 3rd, or 4th) are holidays at your specific institution.
+    * The ability to add your own custom holidays for any other event.
+* **"Week at a Glance" Dashboard:** The main dashboard provides a visual overview of your class schedule for the next 7 days, so you always know what's coming up.
+* **Secure Cloud Storage:** All your data is securely saved to your personal account using Firebase Firestore. Log in from any device and your data is always there.
+* **Easy Timetable Management:** You can add your class schedule manually or, for a more mobile-friendly experience, simply paste your timetable text (in JSON format) directly into a text box.
 * **Google Authentication:** Secure and easy login using your existing Google account via OAuth 2.0.
 
 ---
