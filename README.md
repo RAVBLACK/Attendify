@@ -1,35 +1,4 @@
-# Attxenz: A Smart Attendance Tracker & Predictor
-
-Attxenz is a modern, user-friendly web application designed to help students, particularly in India, effortlessly track, manage, and predict their class attendance. Gone are the days of manual calculations and uncertainty. With Attxenz, you can easily stay on top of your attendance requirements and make informed decisions about your schedule.
-
-The application is built with a clean, responsive interface featuring both light and dark modes, and securely stores all your data online using Google's Firebase, accessible via a simple Google login.
-
----
-## ✨ Core Features
-
-* **Simplified Attendance Tracking:** No need to mark every single class. Simply provide the total number of classes conducted and attended so far, and the app handles all calculations.
-* **Advanced Predictive Analysis:** The app's key feature is a powerful calculator that lets you see how your attendance will be affected by future absences. You can select any future date and enter the number of *whole days* or *individual classes* you plan to skip to get a precise, real-time prediction.
-* **Intelligent & Flexible Holiday Calendar:** The app is designed for the Indian academic calendar. It automatically considers the following as holidays:
-    * All Sundays.
-    * A built-in list of major Indian public holidays (e.g., Republic Day, Diwali, Independence Day).
-    * **Customizable Saturdays:** You can select which Saturdays of the month (1st, 2nd, 3rd, or 4th) are holidays at your specific institution.
-    * The ability to add your own custom holidays for any other event.
-* **"Week at a Glance" Dashboard:** The main dashboard provides a visual overview of your class schedule for the next 7 days, so you always know what's coming up.
-* **Secure Cloud Storage:** All your data is securely saved to your personal account using Firebase Firestore. Log in from any device and your data is always there.
-* **Easy Timetable Management:** You can add your class schedule manually or, for a more mobile-friendly experience, simply paste your timetable text (in JSON format) directly into a text box.
-* **Google Authentication:** Secure and easy login using your existing Google account via OAuth 2.0.
-
----
-## 🛠️ Tech Stack
-
-* **Frontend:** React.js
-* **Backend & Database:** Firebase (Firestore)
-* **Authentication:** Firebase Authentication (Google OAuth)
-* **Styling:** Tailwind CSS
-
----
-<details>
-  <summary>Getting Started with Create React App (Original Docs)</summary>
+# Getting Started with Create React App
 
   This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -60,4 +29,42 @@ The application is built with a clean, responsive interface featuring both light
 
   See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-</details>
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
