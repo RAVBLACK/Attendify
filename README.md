@@ -7,7 +7,7 @@ Attxenz is a modern, user-friendly web application designed to help students, pa
 The application is built with a clean, responsive interface featuring both light and dark modes, and securely stores all your data online using Google's Firebase, accessible via a simple Google login.
 
 ---
-## ✨ <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bd05b065-1e8f-41b5-b015-6743d97a76b1" />
+## ✨ 
 Core Features
 
 * **Simplified Attendance Tracking:** No need to mark every single class. Simply provide the total number of classes conducted and attended so far, and the app handles all calculations.
