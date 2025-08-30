@@ -16,7 +16,14 @@ const CheckSquareIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24"
 const PieChartIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>;
 
 // --- Firebase Configuration ---
-const firebaseConfig = {   apiKey: "AIzaSyBxp92xbwWkjJcG6vX-G3lHS0mGQL_K5lI",   authDomain: "attendance-tracker-b9190.firebaseapp.com",   projectId: "attendance-tracker-b9190",   storageBucket: "attendance-tracker-b9190.firebasestorage.app",   messagingSenderId: "897410578052",   appId: "1:897410578052:web:aa166dae7740423448b4d1", };
+const firebaseConfig = {
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID
+};
 
 // --- Firebase Initialization ---
 const app = initializeApp(firebaseConfig);
